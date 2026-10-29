@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR+Guides&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color:rgb(4, 255, 0);
+margin: 30px;
+border: 5px solid rgb(82, 244, 90);
+padding: 20px;
+}
+
+    #galeriaImagenes{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color:rgb(172, 252, 11);
+}
+
+    #galeriaImagenes div{
+    border: 3px solid rgb(60, 112, 0);
+    border-radius: 15px;
+
+}
+
+ #galeriaImagenes p{
+    text-align: center;
+    padding: 15px 0%;
+    color:rgb(246, 49, 49);
+}
+
+
+
+
+ #galeriaImagenes img{
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+
+}
